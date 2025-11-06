@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center;   /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* จำกัดความกว้างไม่ให้ใหญ่เกินไปบนจอคอม แต่เต็มจอเล็กๆ ได้ */
+    max-width: 400px; 
+    width: 90%; 
+}
+
+#problem {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#answer-input {
+    padding: 10px;
+    font-size: 1.2em;
+    width: 80%;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

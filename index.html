@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>เกมบวกเลขด่วนของนิติธร</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>เกมบวกเลขด่วน</h1>
+        
+        <div id="problem">
+            <span id="num1"></span> 
+            <span id="operator">+</span> 
+            <span id="num2"></span> = ?
+        </div>
+        
+        <div id="loading-message">... กำลังสุ่มโจทย์ ...</div> 
+        
+        <input type="number" id="answer-input" placeholder="ใส่คำตอบ">
+        <button id="submit-btn">ตรวจคำตอบ</button>
+        
+        <div id="result-message"></div>
+        <div id="score">คะแนน: 0</div>
+    </div>
+
+    <script src="main.js"></script> 
+</body>
+</html>
+
